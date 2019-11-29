@@ -137,10 +137,9 @@
   .col-md-12 {
     width: 100%;
   }
-}
 
 /* OFFSET COLONNE MEDIUM */
-@media screen and (min-width: 769px) and (max-width: 992px) {
+
   .col-offset-md-1 {
     margin-left: calc((100% / 12) * 1);
   }
@@ -214,13 +213,8 @@
   .col-xs-12 {
     width: 100%;
   }
-  .xs-display-none {
-    display: none;
-  }
-}
-
+  
 /* OFFSET COLONNE EXTRASMAL */
-@media screen and (max-width: 768px) {
   .col-offset-xs-1 {
     margin-left: calc((100% / 12) * 1);
   }

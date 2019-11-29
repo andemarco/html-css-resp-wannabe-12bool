@@ -25,3 +25,24 @@
   padding: 20px;
   background-color: #599AD4;
 }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+  .title_art {
+    font-size: 15px;
+  }
+  .img_art {
+    height: 160px;
+  }
+  .container > div {
+    padding: 10px;
+  }
+}
