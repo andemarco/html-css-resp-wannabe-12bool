@@ -1,7 +1,11 @@
 /* Debug */
-.debug {
-  background-color: blue;
-  border: solid 1px black;
+.debug .container {
+  border: 1px solid blue;
+  background: yellow;
+}
+.debug .container [class*="col-"] {
+  border: 1px solid blue;
+  height: 300px;
 }
 
 /* INIZIO FRAMEWORK */
@@ -213,7 +217,7 @@
   .col-xs-12 {
     width: 100%;
   }
-  
+
 /* OFFSET COLONNE EXTRASMAL */
   .col-offset-xs-1 {
     margin-left: calc((100% / 12) * 1);

@@ -25,11 +25,11 @@
   padding: 20px;
   background-color: #599AD4;
 }
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .container {
     width: 100%;
   }
-
   .title {
     font-size: 30px;
     margin-top: 70px;
@@ -44,5 +44,28 @@
   }
   .container > div {
     padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .title_art {
+    font-size: 20px;
+  }
+  .img_art {
+    height: 170px;
+  }
+  .container > div {
+    padding: 10px;
+    margin-top: 20px;
   }
 }
