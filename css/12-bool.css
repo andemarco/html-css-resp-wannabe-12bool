@@ -1,5 +1,8 @@
 /* Debug */
-.debug
+.debug {
+  background-color: blue;
+  border: solid 1px black;
+}
 
 /* INIZIO FRAMEWORK */
 * {

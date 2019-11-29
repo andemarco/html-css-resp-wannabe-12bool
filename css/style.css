@@ -1,0 +1,17 @@
+.title {
+  font-size: 35px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.title_art {
+  font-size: 20px;
+}
+.img_art {
+  height: 180px;
+}
+.text_align_center {
+  text-align: center;
+}
+.padding_10px {
+  padding: 10px;
+}
